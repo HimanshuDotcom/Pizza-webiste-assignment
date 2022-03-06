@@ -1,0 +1,26 @@
+.nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  height: 6rem;
+  background-color: black;
+}
+.nav_list {
+  /* border: 1px solid black; */
+  display: flex;
+}
+.nav_list a {
+  color: white;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav_list a:not(:last-child) {
+  margin-right: 10px;
+  display: flex;
+}
