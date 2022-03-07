@@ -1,0 +1,30 @@
+.tab {
+  display: flex;
+  height: 4rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.tab > * {
+  flex: 1;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.display {
+  border: 1px solid red;
+  display: flex;
+}
