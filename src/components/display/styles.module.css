@@ -2,7 +2,7 @@
   display: flex;
   height: 4rem;
   width: 85%;
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 
 .tab > * {
@@ -20,6 +20,12 @@
 }
 
 .active {
-  background-color: black;
+  background-color: #101d2c;
   color: white;
+}
+
+.errMsg {
+  font-size: 3.5rem;
+  margin: 3rem 0;
+  text-align: center;
 }

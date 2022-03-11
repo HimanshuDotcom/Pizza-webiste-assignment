@@ -1,0 +1,40 @@
+.footer {
+  margin: 4rem 0;
+  padding: 2rem 0;
+  background-color: #f44336;
+}
+
+.footer .header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.footer .body {
+  display: flex;
+  text-align: center;
+  font-size: 1.6rem;
+  /* font-weight: bold; */
+  color: white;
+}
+
+.footer .body > * {
+  flex-basis: 50%;
+}
+
+.footer .hours p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footer .contact {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  display: flex;
+  text-align: center;
+  border: 1px solid white;
+  padding: 1rem 0;
+}
+.footer .contact > * {
+  flex-basis: 50%;
+}
