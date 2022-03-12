@@ -21,7 +21,6 @@ A react application for a pizza restaurent.
 - Filter pizzas like veg, non-veg.
 - Add toppings and choose size of the pizza.
 - Edit order from order section
-- fetching the pizzas from api
 - fully responsive
  
   
